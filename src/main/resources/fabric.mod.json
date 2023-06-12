@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "nukescopperutilities",
+	"version": "${version}",
+	"name": "Nuke's Copper Utilities",
+	"description": "Adds new utilities for copper, like copper potatoes and apples and using it for beacons and hoppers.",
+	"authors": [
+		"Nukkine Goldenheart"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/nukes-copper-utilities/",
+		"sources": "https://github.com/Nukkine/NukesCopperUtilities"
+	},
+	"license": "MIT License",
+	"icon": "assets/nukescopperutilities/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nukkine.nukescopperutilities.NukesCopperUtilities"
+		],
+		"client": [
+          "net.nukkine.nukescopperutilities.NukesCopperUtilitiesClient"
+		]
+	},
+	"mixins": [
+		"nukescopperutilities.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

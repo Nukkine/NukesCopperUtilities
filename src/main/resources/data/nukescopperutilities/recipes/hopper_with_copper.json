@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "#X#",
+    " @ "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "@": {
+      "item": "minecraft:copper_block"
+    },
+    "X": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper"
+  }
+}
