@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.1] 2022-06-22
+
+### Fixed
+- Copper Potato saturation being too high.
+
 ## [1.1.0] 2022-06-17
 
 ### Removed

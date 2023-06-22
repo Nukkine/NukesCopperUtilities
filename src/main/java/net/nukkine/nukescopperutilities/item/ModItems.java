@@ -32,7 +32,7 @@ public class ModItems {
         COPPER_POTATO = registerItem("copper_potato", ItemGroups.FOOD_AND_DRINK, new Item(
                 new Item.Settings().rarity(Rarity.COMMON).food(
                         new FoodComponent.Builder().
-                        hunger(6).saturationModifier(1F).
+                        hunger(6).saturationModifier(0.8F).
                         build()
                 )
         ));

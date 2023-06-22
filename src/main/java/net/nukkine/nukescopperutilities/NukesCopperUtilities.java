@@ -12,6 +12,7 @@ public class NukesCopperUtilities implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
         ModItems.registerModItems();
     }
 }
