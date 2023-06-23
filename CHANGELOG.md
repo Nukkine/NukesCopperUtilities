@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.0]
+
+### Removed
+- Cut copper block variants from beacon base, as it felt overpowered because you can make 4 of them from a single block of copper on the stonecutter.
+
 ## [1.1.1] 2022-06-22
 
 ### Fixed
